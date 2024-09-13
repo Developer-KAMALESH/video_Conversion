@@ -1,0 +1,13 @@
+train: E:/New folder (2)/ultralytics/datasets/train/images
+val: E:/New folder (2)/ultralytics/datasets/valid/images
+test: E:/New folder (2)/ultralytics/datasets/test/images
+
+nc: 5
+names: ['gun', 'human', 'knife', 'product_in_hand', 'shutter']
+
+roboflow:
+  workspace: c-candycane-bbhid
+  project: eyeidea
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/c-candycane-bbhid/eyeidea/dataset/2
